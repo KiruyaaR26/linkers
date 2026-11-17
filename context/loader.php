@@ -28,11 +28,4 @@ if ( ! defined( 'ABSPATH' ) || ! defined( 'WPINC' ) || ! function_exists( 'add_a
     exit;
 }
 
-include 'access.php';
-include 'aspectratio.php';
-include 'categories.php';
-include 'country.php';
-include 'format.php';
-include 'studio.php';
-include 'tags.php';
-include 'roles.php';
+include 'jenis-koleksi.php';

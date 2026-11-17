@@ -1,7 +1,8 @@
 <?php
 
-if ( ! defined( 'ABSPATH' ) ) {
-    // cegah akses langsung ke file
+// abort if this file is called directly
+if ( ! defined( 'ABSPATH' ) || ! defined( 'WPINC' ) || ! function_exists( 'add_action' ) ) {
+    echo 'Hi there! I just a extended module, please back.';
     exit;
 }
 

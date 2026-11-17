@@ -29,3 +29,4 @@ if ( ! defined( 'ABSPATH' ) || ! defined( 'WPINC' ) || ! function_exists( 'add_a
 }
 
 include 'jenis-koleksi.php';
+include 'browse-repository.php';

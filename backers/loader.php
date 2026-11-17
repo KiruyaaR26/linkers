@@ -27,3 +27,5 @@ if ( ! defined( 'ABSPATH' ) || ! defined( 'WPINC' ) || ! function_exists( 'add_a
     echo 'Hi there! I just a extended module, please back.';
     exit;
 }
+
+include 'browse-repository.php';

@@ -29,3 +29,4 @@ if ( ! defined( 'ABSPATH' ) || ! defined( 'WPINC' ) || ! function_exists( 'add_a
 }
 
 include 'browse-repository.php';
+include 'search-repository.php';
